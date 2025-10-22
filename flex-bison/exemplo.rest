@@ -1,0 +1,11 @@
+CLIENTE "Maria" {
+  tipo = SELF_SERVICE;
+  peso = 0.72;
+  bebidas = 1;
+  sobremesas = 0;
+}
+
+ADICIONAR_ITEM "Refrigerante" 1;
+CALCULAR_PESO 0.72;
+MOSTRAR "total";
+FECHAR_CONTA;
