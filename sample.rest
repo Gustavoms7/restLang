@@ -1,0 +1,16 @@
+CLIENTE "Joao" {
+    tipo = SELF_SERVICE;
+    peso = 2;
+    bebidas = 1;
+    sobremesas = 1;
+}
+
+MOSTRAR "Bem-vindo ao restLang!";
+CALCULAR_PESO 1.5;
+ADICIONAR_ITEM "Refrigerante" 2;
+MOSTRAR cliente.peso;
+FECHAR_CONTA;
+
+REPETIR 2 VEZES {
+    MOSTRAR "Loop ativo";
+}
