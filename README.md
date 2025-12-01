@@ -10,6 +10,7 @@
 **Disciplina:** Lógica Computacional - APS
 
 ---
+>🚨Apresentação e EBNF mais detalhados na pasta docs
 
 ## 📖 Sobre o Projeto
 
