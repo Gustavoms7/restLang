@@ -1,11 +1,17 @@
-CLIENTE "Maria" {
+CLIENTE "Joao" {
   tipo = SELF_SERVICE;
-  peso = 0.72;
+  peso = 0.75;
   bebidas = 1;
   sobremesas = 0;
 }
 
-ADICIONAR_ITEM "Refrigerante" 1;
-CALCULAR_PESO 0.72;
-MOSTRAR "total";
+ADICIONAR_ITEM "Coca" 1;
+CALCULAR_PESO 0.75;
+MOSTRAR "Bem-vindo ao restLang!";
+MOSTRAR cliente.peso;
+
+REPETIR 2 VEZES {
+  ADICIONAR_ITEM "Pao" 2;
+}
+
 FECHAR_CONTA;

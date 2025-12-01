@@ -1,0 +1,34 @@
+CLIENTE "Lucia" {
+    tipo = SELF_SERVICE;
+    peso = 1.8;
+    bebidas = 4;
+    sobremesas = 2;
+}
+
+MOSTRAR "=== Teste Completo ===";
+
+CALCULAR_PESO 1.0;
+ADICIONAR_ITEM "Agua" 1;
+ADICIONAR_ITEM "Refrigerante" 2;
+ADICIONAR_ITEM "Bolo" 1;
+
+MOSTRAR cliente.nome;
+MOSTRAR cliente.tipo;
+MOSTRAR cliente.peso;
+MOSTRAR cliente.bebidas;
+MOSTRAR cliente.sobremesas;
+
+SE cliente.peso > 1 ENTAO {
+    MOSTRAR "Peso acima de 1kg";
+}
+
+SE cliente.bebidas > 3 ENTAO {
+    MOSTRAR "Muitas bebidas!";
+}
+
+REPETIR 2 VEZES {
+    MOSTRAR "Finalizando...";
+}
+
+MOSTRAR "=== Fim do Teste ===";
+FECHAR_CONTA;

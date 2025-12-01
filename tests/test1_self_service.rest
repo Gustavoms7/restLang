@@ -1,0 +1,14 @@
+CLIENTE "Maria" {
+    tipo = SELF_SERVICE;
+    peso = 1.5;
+    bebidas = 2;
+    sobremesas = 1;
+}
+
+MOSTRAR "Cliente Maria criado com sucesso";
+CALCULAR_PESO 1.2;
+ADICIONAR_ITEM "Suco" 2;
+ADICIONAR_ITEM "Pudim" 1;
+MOSTRAR cliente.peso;
+MOSTRAR cliente.total;
+FECHAR_CONTA;

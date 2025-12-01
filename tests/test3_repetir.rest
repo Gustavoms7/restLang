@@ -1,0 +1,13 @@
+CLIENTE "Ana" {
+    tipo = SELF_SERVICE;
+    peso = 2.5;
+    bebidas = 1;
+    sobremesas = 0;
+}
+
+REPETIR 3 VEZES {
+    MOSTRAR "Processando pedido...";
+}
+
+MOSTRAR "Pedidos processados";
+FECHAR_CONTA;

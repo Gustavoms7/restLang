@@ -1,0 +1,12 @@
+CLIENTE "Carlos" {
+    tipo = RODIZIO;
+    peso = 0;
+    bebidas = 3;
+    sobremesas = 2;
+}
+
+MOSTRAR "Cliente Carlos - Rodizio";
+ADICIONAR_ITEM "Cerveja" 3;
+ADICIONAR_ITEM "Sorvete" 2;
+MOSTRAR cliente.bebidas;
+FECHAR_CONTA;

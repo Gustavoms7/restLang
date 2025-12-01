@@ -1,0 +1,12 @@
+CLIENTE "Bruno" {
+    tipo = RODIZIO;
+    peso = 0;
+    bebidas = 1;
+    sobremesas = 1;
+}
+
+desconto = 10;
+taxa_servico = 5;
+
+MOSTRAR "Variaveis definidas";
+FECHAR_CONTA;

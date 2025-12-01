@@ -1,0 +1,16 @@
+CLIENTE "Pedro" {
+    tipo = SELF_SERVICE;
+    peso = 3.0;
+    bebidas = 2;
+    sobremesas = 1;
+}
+
+SE cliente.peso > 2 ENTAO {
+    MOSTRAR "Cliente comeu bastante!";
+}
+
+SE cliente.bebidas == 2 ENTAO {
+    MOSTRAR "Duas bebidas consumidas";
+}
+
+FECHAR_CONTA;

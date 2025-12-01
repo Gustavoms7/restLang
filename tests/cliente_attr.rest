@@ -1,0 +1,8 @@
+CLIENTE "Maria" {
+    tipo = SELF_SERVICE;
+    peso = 1.5;
+    bebidas = 2;
+    sobremesas = 1;
+}
+
+MOSTRAR cliente.peso;
